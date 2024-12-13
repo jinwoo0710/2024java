@@ -20,7 +20,7 @@ public class Jtable {
             System.out.println("MySQL 연결 실패: " + e.getMessage());
         }
         
-        JFrame frame = new JFrame("동현이의 맛집 추천 테이블");
+        JFrame frame = new JFrame("맘스터치 메뉴 테이블");
         frame.setDefaultCloseOperation(JFrame.EXIT_ON_CLOSE);
         frame.setSize(1000, 500);
         DefaultTableModel tableModel = new DefaultTableModel(
